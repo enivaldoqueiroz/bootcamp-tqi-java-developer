@@ -1,4 +1,4 @@
-package intervalo;
+package desafio.intervalo;
 
 import java.io.IOException;
 import java.util.Scanner;

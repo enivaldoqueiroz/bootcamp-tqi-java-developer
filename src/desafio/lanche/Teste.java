@@ -1,4 +1,4 @@
-package lanche;
+package desafio.lanche;
 
 import java.util.Scanner;
 
