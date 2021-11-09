@@ -9,6 +9,8 @@ public class Ex4_ParEImpar {
 		Scanner scan = new Scanner(System.in);
 		
 		int quantidadeNumeros;
+		int quantidadePar = 0;
+		int quantidadeImpar = 0;
 		int numero;
 		
 		System.out.println("Quantidade de numeros: ");
@@ -20,13 +22,17 @@ public class Ex4_ParEImpar {
 			System.out.println("Numero: ");
 			numero = scan.nextInt();
 			if(numero % 2 == 0) {
-				System.out.println("O Numero " + numero + " é par");
+				quantidadePar++;
+				//System.out.println("O Numero " + numero + " é par");
 			} else {
-				System.out.println("O Numero " + numero + " é impar");
+				quantidadeImpar++;
+				//System.out.println("O Numero " + numero + " é impar");
 			}
 			count++;
 		} while (count < quantidadeNumeros);
 		
+		System.out.println("Quantidade de par " + quantidadePar);
+		System.out.println("Quantidade de impar " + quantidadeImpar);
 		System.out.println("Temino da DO WHILE");
 		
 	}
